@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About VM RankUp | Organic Search & Technical SEO Leaders</title>
+  <meta name="robots" content="noindex, nofollow">
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Meet VM RankUp, a results-oriented SEO agency. Learn about our data-driven mission, vision, history, and search specialists driving revenue.">
+  <meta name="keywords" content="About VM RankUp, SEO Agency Team, SEO Experts, Digital Marketing History">
+  <link rel="canonical" href="https://vmrankup.com/about.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vmrankup.com/about.html">
+  <meta property="og:title" content="About VM RankUp | Organic Search & Technical SEO Leaders">
+  <meta property="og:description" content="Meet VM RankUp, a results-oriented SEO agency. Learn about our data-driven mission, vision, history, and search specialists driving revenue.">
+  <meta property="og:image" content="images/og-about.jpg">
+
+  <!-- Tailwind CSS & Configuration -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#2563EB',
+            secondary: '#06B6D4',
+            accent: '#14B8A6',
+            dark: '#0F172A',
+            background: '#F8FAFC',
+            bodytext: '#1E293B',
+            success: '#22C55E',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Plus Jakarta Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom CSS Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body class="bg-background text-bodytext font-sans antialiased selection:bg-primary selection:text-white">
+
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress"></div>
+
+  <!-- Navigation Header -->
+  <header id="navbar" class="fixed top-0 left-0 w-full z-40 py-5 transition-all duration-300 bg-transparent">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="flex items-center gap-2 group" aria-label="VM RankUp Home">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-primary to-secondary flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform duration-300">
+          <i data-lucide="trending-up" class="text-white w-6 h-6"></i>
+        </div>
+        <span class="text-2xl font-extrabold tracking-tight text-dark">VM <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">RankUp</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="hidden md:flex items-center gap-8 font-medium">
+        <a href="index.html" class="nav-link text-slate-600 hover:text-primary transition-colors py-1">Home</a>
+        <a href="about.html" class="nav-link text-slate-600 hover:text-primary transition-colors py-1">About</a>
+        <a href="services.html" class="nav-link text-slate-600 hover:text-primary transition-colors py-1">Services</a>
+        <a href="portfolio.html" class="nav-link text-slate-600 hover:text-primary transition-colors py-1">Portfolio</a>
+        <a href="blog.html" class="nav-link text-slate-600 hover:text-primary transition-colors py-1">Blog</a>
+        <a href="contact.html" class="nav-link text-slate-600 hover:text-primary transition-colors py-1">Contact</a>
+      </nav>
+
+      <!-- Navigation CTAs -->
+      <div class="hidden md:flex items-center gap-4">
+        <a href="index.html#audit" class="px-5 py-2.5 bg-primary text-white text-sm font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300 hover-lift btn-ripple">
+          Get Free SEO Audit
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-700 focus:outline-none" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <i id="menu-icon-open" data-lucide="menu" class="w-6 h-6"></i>
+        <i id="menu-icon-close" data-lucide="x" class="w-6 h-6 hidden"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="fixed top-[72px] right-0 w-80 h-[calc(100vh-72px)] bg-white shadow-2xl p-6 transform translate-x-full transition-transform duration-300 ease-in-out md:hidden flex flex-col justify-between border-l border-slate-100 z-50">
+      <nav class="flex flex-col gap-5 text-lg font-semibold">
+        <a href="index.html" class="text-slate-700 hover:text-primary transition-colors py-1 border-b border-slate-50">Home</a>
+        <a href="about.html" class="text-slate-700 hover:text-primary transition-colors py-1 border-b border-slate-50">About</a>
+        <a href="services.html" class="text-slate-700 hover:text-primary transition-colors py-1 border-b border-slate-50">Services</a>
+        <a href="portfolio.html" class="text-slate-700 hover:text-primary transition-colors py-1 border-b border-slate-50">Portfolio</a>
+        <a href="blog.html" class="text-slate-700 hover:text-primary transition-colors py-1 border-b border-slate-50">Blog</a>
+        <a href="contact.html" class="text-slate-700 hover:text-primary transition-colors py-1">Contact</a>
+      </nav>
+      <div class="mt-auto">
+        <a href="index.html#audit" class="w-full text-center block px-6 py-3 bg-primary text-white rounded-lg shadow-md hover:bg-blue-700 transition font-semibold">
+          Free SEO Audit
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Hero -->
+  <section class="relative pt-32 pb-20 lg:pt-44 lg:pb-28 bg-gradient-hero overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center flex flex-col items-center space-y-6 reveal">
+      <span class="px-3 py-1 bg-blue-50 text-primary text-xs font-semibold rounded-full border border-blue-100">
+        Our Identity
+      </span>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-dark tracking-tight leading-tight max-w-3xl">
+        Decoding Search Engines to <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Scale Ambitious Brands</span>
+      </h1>
+      <p class="text-slate-600 text-sm sm:text-base max-w-xl">
+        We are a dedicated collective of technical auditors, outreach publicists, and campaign specialists engineered around transparency and real growth.
+      </p>
+    </div>
+  </section>
+
+  <!-- Agency Story & Mission -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 grid lg:grid-cols-12 gap-16 items-center">
+      
+      <!-- Graphic Column -->
+      <div class="lg:col-span-5 relative reveal-left">
+        <div class="absolute -top-12 -left-12 w-64 h-64 bg-cyan-500 rounded-full filter blur-[120px] opacity-10 animate-pulse-glow"></div>
+        <div class="glass-card p-8 rounded-2xl border border-slate-100 relative z-10 space-y-6">
+          <h3 class="text-xl font-bold text-dark">Our Mission</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            "To dismantle search engine ambiguities by providing clients clear, data-backed optimization paths that grow organic volume, enhance conversions, and ensure lifetime marketing returns."
+          </p>
+          <div class="flex items-center gap-3 pt-2">
+            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-primary font-bold text-xs">VM</div>
+            <div>
+              <p class="text-xs font-bold text-slate-800">Founder & Managing Director</p>
+              <p class="text-[10px] text-slate-400 font-semibold">VM RankUp SEO Lab</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story Details -->
+      <div class="lg:col-span-7 space-y-6 text-left reveal-right">
+        <span class="px-3 py-1 bg-cyan-50 text-secondary text-xs font-semibold rounded-full border border-cyan-100">
+          Company Story
+        </span>
+        <h2 class="text-3xl font-extrabold text-dark tracking-tight leading-tight">
+          How VM RankUp Rebuilt the Digital Agency Standard
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          Founded in 2021, VM RankUp grew out of a simple frustration: the digital marketing sector was saturated with vague keyword metrics and zero client transparency.
+        </p>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          We designed an agency model focused solely on transactional organic traffic. By prioritizing technical code configurations, semantic markup schemas, and manual editorial outreaches, we deliver clear search engine authority that clients track live on custom analytics portals.
+        </p>
+
+        <!-- Vision and Values highlights -->
+        <div class="grid grid-cols-2 gap-6 pt-4">
+          <div class="space-y-2">
+            <h4 class="font-bold text-slate-900 text-sm sm:text-base flex items-center gap-2">
+              <i data-lucide="eye" class="text-primary w-4.5 h-4.5"></i> Clear Vision
+            </h4>
+            <p class="text-slate-500 text-xs sm:text-sm">Empowering brands to achieve sustainable organic leads without relying on rising advertising budgets.</p>
+          </div>
+          <div class="space-y-2">
+            <h4 class="font-bold text-slate-900 text-sm sm:text-base flex items-center gap-2">
+              <i data-lucide="heart" class="text-secondary w-4.5 h-4.5"></i> Core Values
+            </h4>
+            <p class="text-slate-500 text-xs sm:text-sm">Data integrity, complete billing transparency, and a relentless focus on client growth.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- History Timeline -->
+  <section class="py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center flex flex-col items-center space-y-4 mb-16">
+      <span class="px-3 py-1 bg-blue-50 text-primary text-xs font-semibold rounded-full border border-blue-100">
+        Milestones
+      </span>
+      <h2 class="text-3xl font-extrabold text-dark tracking-tight">Our Evolution Timeline</h2>
+      <p class="text-slate-500 max-w-xl text-sm">
+        Tracing our rapid progress from a 2-person consultancy to a multi-national SEO operation.
+      </p>
+    </div>
+
+    <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-4 gap-8 relative z-10">
+      
+      <!-- Year 1 -->
+      <div class="bg-white p-6 rounded-2xl border border-slate-200/60 shadow-sm relative space-y-4 reveal">
+        <div class="absolute -top-4 left-6 bg-primary text-white text-xs font-bold px-3 py-1 rounded">2022</div>
+        <h4 class="font-bold text-dark pt-2 text-sm sm:text-base">Founding & Core Focus</h4>
+        <p class="text-slate-500 text-xs leading-relaxed">
+          Launched consultancy services focusing strictly on Technical Core Web Vitals optimizations and penalty recoveries.
+        </p>
+      </div>
+
+      <!-- Year 2 -->
+      <div class="bg-white p-6 rounded-2xl border border-slate-200/60 shadow-sm relative space-y-4 reveal delay-100">
+        <div class="absolute -top-4 left-6 bg-secondary text-white text-xs font-bold px-3 py-1 rounded">2023</div>
+        <h4 class="font-bold text-dark pt-2 text-sm sm:text-base">Outreach Scale-up</h4>
+        <p class="text-slate-500 text-xs leading-relaxed">
+          Expanded editorial outreach systems to secure high-authority backlinks, adding 15 dedicated campaign planners.
+        </p>
+      </div>
+
+      <!-- Year 3 -->
+      <div class="bg-white p-6 rounded-2xl border border-slate-200/60 shadow-sm relative space-y-4 reveal delay-200">
+        <div class="absolute -top-4 left-6 bg-accent text-white text-xs font-bold px-3 py-1 rounded">2024</div>
+        <h4 class="font-bold text-dark pt-2 text-sm sm:text-base">Dashboard Rollout</h4>
+        <p class="text-slate-500 text-xs leading-relaxed">
+          Designed and integrated custom live ranking and backlink monitoring dashboard portals for all running clients.
+        </p>
+      </div>
+
+      <!-- Year 4 -->
+      <div class="bg-white p-6 rounded-2xl border border-slate-200/60 shadow-sm relative space-y-4 reveal delay-300">
+        <div class="absolute -top-4 left-6 bg-dark text-white text-xs font-bold px-3 py-1 rounded">2025</div>
+        <h4 class="font-bold text-dark pt-2 text-sm sm:text-base">Global Presence</h4>
+        <p class="text-slate-500 text-xs leading-relaxed">
+          Currently managing search ranking portfolios for 100+ global brands, securing $45M+ client revenue conversions.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Meet the Team -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center flex flex-col items-center space-y-4 mb-16">
+      <span class="px-3 py-1 bg-cyan-50 text-secondary text-xs font-semibold rounded-full border border-cyan-100">
+        Specialists
+      </span>
+      <h2 class="text-3xl font-extrabold text-dark tracking-tight">Our SEO Leadership</h2>
+      <p class="text-slate-500 max-w-xl text-sm">
+        Dedicated organic search engineers, developers, and publicists committed to scaling target positions.
+      </p>
+    </div>
+
+    <!-- Team Grid -->
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      
+      <!-- Team Member 1 -->
+      <div class="bg-slate-50 rounded-2xl p-6 text-center border border-slate-100 shadow-sm hover-lift reveal">
+        <div class="w-24 h-24 rounded-full bg-blue-100 flex items-center justify-center text-primary font-bold text-3xl mx-auto mb-4 border-4 border-white shadow">
+          MP
+        </div>
+        <h4 class="font-bold text-dark text-sm sm:text-base">Meet Pokiya</h4>
+        <p class="text-slate-400 text-xs font-semibold mb-3">Founder & Principal SEO Lead</p>
+        <div class="flex justify-center gap-3 text-slate-400">
+          <a href="#" aria-label="LinkedIn Profile" class="hover:text-primary"><i data-lucide="linkedin" class="w-4 h-4"></i></a>
+          <a href="#" aria-label="Twitter Profile" class="hover:text-primary"><i data-lucide="twitter" class="w-4 h-4"></i></a>
+        </div>
+      </div>
+
+      <!-- Team Member 2 -->
+      <div class="bg-slate-50 rounded-2xl p-6 text-center border border-slate-100 shadow-sm hover-lift reveal delay-100">
+        <div class="w-24 h-24 rounded-full bg-cyan-100 flex items-center justify-center text-cyan-600 font-bold text-3xl mx-auto mb-4 border-4 border-white shadow">
+          JD
+        </div>
+        <h4 class="font-bold text-dark text-sm sm:text-base">Jessica Davis</h4>
+        <p class="text-slate-400 text-xs font-semibold mb-3">Head of Technical SEO</p>
+        <div class="flex justify-center gap-3 text-slate-400">
+          <a href="#" aria-label="LinkedIn Profile" class="hover:text-primary"><i data-lucide="linkedin" class="w-4 h-4"></i></a>
+          <a href="#" aria-label="Twitter Profile" class="hover:text-primary"><i data-lucide="twitter" class="w-4 h-4"></i></a>
+        </div>
+      </div>
+
+      <!-- Team Member 3 -->
+      <div class="bg-slate-50 rounded-2xl p-6 text-center border border-slate-100 shadow-sm hover-lift reveal delay-200">
+        <div class="w-24 h-24 rounded-full bg-teal-100 flex items-center justify-center text-accent font-bold text-3xl mx-auto mb-4 border-4 border-white shadow">
+          SK
+        </div>
+        <h4 class="font-bold text-dark text-sm sm:text-base">Siddharth Kumar</h4>
+        <p class="text-slate-400 text-xs font-semibold mb-3">Director of Editorial Outreach</p>
+        <div class="flex justify-center gap-3 text-slate-400">
+          <a href="#" aria-label="LinkedIn Profile" class="hover:text-primary"><i data-lucide="linkedin" class="w-4 h-4"></i></a>
+          <a href="#" aria-label="Twitter Profile" class="hover:text-primary"><i data-lucide="twitter" class="w-4 h-4"></i></a>
+        </div>
+      </div>
+
+      <!-- Team Member 4 -->
+      <div class="bg-slate-50 rounded-2xl p-6 text-center border border-slate-100 shadow-sm hover-lift reveal delay-300">
+        <div class="w-24 h-24 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-500 font-bold text-3xl mx-auto mb-4 border-4 border-white shadow">
+          EL
+        </div>
+        <h4 class="font-bold text-dark text-sm sm:text-base">Emma Lowrie</h4>
+        <p class="text-slate-400 text-xs font-semibold mb-3">Senior SEO Content Planner</p>
+        <div class="flex justify-center gap-3 text-slate-400">
+          <a href="#" aria-label="LinkedIn Profile" class="hover:text-primary"><i data-lucide="linkedin" class="w-4 h-4"></i></a>
+          <a href="#" aria-label="Twitter Profile" class="hover:text-primary"><i data-lucide="twitter" class="w-4 h-4"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Strategic Office Locations & Trust Banner -->
+  <section class="py-24 bg-slate-50 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 grid lg:grid-cols-12 gap-16 items-center">
+      
+      <!-- Text details -->
+      <div class="lg:col-span-6 space-y-6 text-left reveal-left">
+        <span class="px-3 py-1 bg-blue-50 text-primary text-xs font-semibold rounded-full border border-blue-100">
+          Global Operations
+        </span>
+        <h2 class="text-3xl font-extrabold text-dark tracking-tight leading-tight">
+          Operating Strategically from Core Tech Hubs
+        </h2>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          Our distributed workflows allow campaign executives to build relationships with global publishers and maintain round-the-clock technical operations.
+        </p>
+
+        <!-- Locations -->
+        <div class="grid grid-cols-2 gap-6 pt-2">
+          <div class="p-4 bg-white rounded-xl border border-slate-200 shadow-sm">
+            <h4 class="font-bold text-dark text-sm sm:text-base">San Francisco</h4>
+            <p class="text-slate-500 text-xs">Technical SEO Audit Lab</p>
+            <p class="text-[10px] text-slate-400 mt-1">45 California St, SF</p>
+          </div>
+          <div class="p-4 bg-white rounded-xl border border-slate-200 shadow-sm">
+            <h4 class="font-bold text-dark text-sm sm:text-base">London</h4>
+            <p class="text-slate-500 text-xs">Editorial Outreach Hub</p>
+            <p class="text-[10px] text-slate-400 mt-1">82 Bishopsgate, London</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Graphic/Badge -->
+      <div class="lg:col-span-6 reveal-right delay-200">
+        <div class="bg-gradient-to-tr from-primary to-secondary p-1 rounded-2xl shadow-xl">
+          <div class="bg-dark rounded-xl p-8 text-center text-white space-y-6">
+            <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto text-primary">
+              <i data-lucide="award" class="w-8 h-8 text-white"></i>
+            </div>
+            <h3 class="text-2xl font-bold">100% Certified Optimization</h3>
+            <p class="text-slate-300 text-xs sm:text-sm">
+              All campaigns comply strictly with search engine guidelines, guaranteeing safe organic authority positioning.
+            </p>
+            <div class="flex justify-center gap-6 text-xs text-slate-400 font-semibold">
+              <span>Google Partner</span>
+              <span>&bull;</span>
+              <span>Bing Webmaster Certified</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA consultation call -->
+  <section class="py-24 bg-gradient-to-br from-dark to-slate-900 text-white relative overflow-hidden">
+    <div class="max-w-5xl mx-auto px-6 lg:px-8 text-center space-y-8 relative z-10 reveal">
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+        Build Sustainable Search Authority Today
+      </h2>
+      <p class="text-slate-300 max-w-xl mx-auto text-sm sm:text-base">
+        Partner with VM RankUp's specialists to establish a clear, data-driven organic keyword roadmap.
+      </p>
+      <div class="flex gap-4 justify-center pt-4">
+        <a href="contact.html" class="px-8 py-4 bg-primary text-white font-semibold rounded-xl hover:bg-blue-700 transition shadow-lg btn-ripple">
+          Book Free Strategy Call
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-slate-300 border-t border-slate-800/80 pt-20 pb-10">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 pb-16 border-b border-slate-800">
+      
+      <!-- Column 1: Info -->
+      <div class="lg:col-span-4 space-y-6">
+        <a href="index.html" class="flex items-center gap-2" aria-label="VM RankUp Home">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-primary to-secondary flex items-center justify-center">
+            <i data-lucide="trending-up" class="text-white w-6 h-6"></i>
+          </div>
+          <span class="text-2xl font-extrabold tracking-tight text-white">VM <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">RankUp</span></span>
+        </a>
+        <p class="text-sm text-slate-400 leading-relaxed">
+          VM RankUp designs high-converting search strategies for ambitious companies. We scale rankings, audit architectures, and acquire authoritative backlink assets.
+        </p>
+        
+        <!-- Social Icons -->
+        <div class="flex items-center gap-4 text-slate-400">
+          <a href="#" aria-label="Twitter Account" class="hover:text-primary transition-colors"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+          <a href="#" aria-label="LinkedIn Account" class="hover:text-primary transition-colors"><i data-lucide="linkedin" class="w-5 h-5"></i></a>
+          <a href="#" aria-label="Instagram Account" class="hover:text-primary transition-colors"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+          <a href="#" aria-label="Facebook Page" class="hover:text-primary transition-colors"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+        </div>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div class="lg:col-span-2 space-y-4">
+        <h4 class="text-white font-bold text-sm uppercase tracking-wider">Quick Links</h4>
+        <ul class="space-y-2 text-sm text-slate-400">
+          <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+          <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
+          <li><a href="services.html" class="hover:text-white transition-colors">SEO Services</a></li>
+          <li><a href="portfolio.html" class="hover:text-white transition-colors">Case Studies</a></li>
+          <li><a href="blog.html" class="hover:text-white transition-colors">SEO Insights Blog</a></li>
+          <li><a href="contact.html" class="hover:text-white transition-colors">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Services -->
+      <div class="lg:col-span-3 space-y-4">
+        <h4 class="text-white font-bold text-sm uppercase tracking-wider">SEO Services</h4>
+        <ul class="space-y-2 text-sm text-slate-400">
+          <li><a href="services.html#local-seo" class="hover:text-white transition-colors">Local SEO campaigns</a></li>
+          <li><a href="services.html#technical-seo" class="hover:text-white transition-colors">Technical Architecture audits</a></li>
+          <li><a href="services.html#on-page-seo" class="hover:text-white transition-colors">On-page content optimization</a></li>
+          <li><a href="services.html#off-page-seo" class="hover:text-white transition-colors">Off-page PR campaigns</a></li>
+          <li><a href="services.html#link-building" class="hover:text-white transition-colors">Contextual Link Building</a></li>
+          <li><a href="services.html#seo-audit" class="hover:text-white transition-colors">SEO Performance audits</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Newsletter -->
+      <div class="lg:col-span-3 space-y-4">
+        <h4 class="text-white font-bold text-sm uppercase tracking-wider">SEO Insights Newsletter</h4>
+        <p class="text-sm text-slate-400 leading-relaxed">
+          Subscribe to acquire weekly actionable technical tips directly inside your mailbox.
+        </p>
+        <form data-newsletter-form class="flex flex-col gap-2">
+          <input type="email" placeholder="Enter your business email" class="px-4 py-2.5 rounded-lg bg-slate-800/80 border border-slate-700 text-white text-xs focus:outline-none focus:ring-1 focus:ring-primary/40 focus:border-primary" required>
+          <button class="px-4 py-2.5 bg-primary text-white font-semibold rounded-lg hover:bg-blue-700 transition text-xs btn-ripple">
+            Subscribe
+          </button>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Copyright and Legal Links -->
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 pt-8 flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs gap-4">
+      <p>&copy; 2026 VM RankUp. All rights reserved. Built with passion for search dominance.</p>
+      <div class="flex items-center gap-6">
+        <a href="#" class="hover:text-slate-300 transition">Privacy Policy</a>
+        <a href="#" class="hover:text-slate-300 transition">Terms of Service</a>
+        <a href="#" class="hover:text-slate-300 transition">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button Trigger -->
+  <button id="back-to-top" class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition" aria-label="Scroll Back to Top">
+    <i data-lucide="chevron-up" class="w-6 h-6"></i>
+  </button>
+
+  <!-- Main JavaScript modules init -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

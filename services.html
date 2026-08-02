@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO Services | VM RankUp | Technical & Organic Strategy</title>
+  <meta name="robots" content="noindex, nofollow">
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Explore VM RankUp's professional SEO services: Local, Technical, On-Page, Off-Page, E-commerce, Link Building, Content Marketing, and detailed SEO Audits.">
+  <meta name="keywords" content="SEO Services, Local SEO, Technical SEO, E-commerce SEO, Link Building, Content Marketing">
+  <link rel="canonical" href="https://vmrankup.com/services.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vmrankup.com/services.html">
+  <meta property="og:title" content="Professional SEO Campaigns & Audits | VM RankUp">
+  <meta property="og:description" content="Explore VM RankUp's professional SEO services: Local, Technical, On-Page, Off-Page, E-commerce, Link Building, Content Marketing, and detailed SEO Audits.">
+  <meta property="og:image" content="images/og-services.jpg">
+
+  <!-- Tailwind CSS & Configuration -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#2563EB',
+            secondary: '#06B6D4',
+            accent: '#14B8A6',
+            dark: '#0F172A',
+            background: '#F8FAFC',
+            bodytext: '#1E293B',
+            success: '#22C55E',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Plus Jakarta Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom CSS Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body class="bg-background text-bodytext font-sans antialiased selection:bg-primary selection:text-white">
+
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress"></div>
+
+  <!-- Navigation Header -->
+  <header id="navbar" class="fixed top-0 left-0 w-full z-40 py-5 transition-all duration-300 bg-transparent">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="flex items-center gap-2 group" aria-label="VM RankUp Home">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-primary to-secondary flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform duration-300">
+          <i data-lucide="trending-up" class="text-white w-6 h-6"></i>
+        </div>
+        <span class="text-2xl font-extrabold tracking-tight text-dark">VM <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">RankUp</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="hidden md:flex items-center gap-8 font-medium">
+        <a href="index.html" class="nav-link text-slate-600 hover:text-primary transition-colors py-1">Home</a>
+        <a href="about.html" class="nav-link text-slate-600 hover:text-primary transition-colors py-1">About</a>
+        <a href="services.html" class="nav-link text-slate-600 hover:text-primary transition-colors py-1">Services</a>
+        <a href="portfolio.html" class="nav-link text-slate-600 hover:text-primary transition-colors py-1">Portfolio</a>
+        <a href="blog.html" class="nav-link text-slate-600 hover:text-primary transition-colors py-1">Blog</a>
+        <a href="contact.html" class="nav-link text-slate-600 hover:text-primary transition-colors py-1">Contact</a>
+      </nav>
+
+      <!-- Navigation CTAs -->
+      <div class="hidden md:flex items-center gap-4">
+        <a href="index.html#audit" class="px-5 py-2.5 bg-primary text-white text-sm font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300 hover-lift btn-ripple">
+          Get Free SEO Audit
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-700 focus:outline-none" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <i id="menu-icon-open" data-lucide="menu" class="w-6 h-6"></i>
+        <i id="menu-icon-close" data-lucide="x" class="w-6 h-6 hidden"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="fixed top-[72px] right-0 w-80 h-[calc(100vh-72px)] bg-white shadow-2xl p-6 transform translate-x-full transition-transform duration-300 ease-in-out md:hidden flex flex-col justify-between border-l border-slate-100 z-50">
+      <nav class="flex flex-col gap-5 text-lg font-semibold">
+        <a href="index.html" class="text-slate-700 hover:text-primary transition-colors py-1 border-b border-slate-50">Home</a>
+        <a href="about.html" class="text-slate-700 hover:text-primary transition-colors py-1 border-b border-slate-50">About</a>
+        <a href="services.html" class="text-slate-700 hover:text-primary transition-colors py-1 border-b border-slate-50">Services</a>
+        <a href="portfolio.html" class="text-slate-700 hover:text-primary transition-colors py-1 border-b border-slate-50">Portfolio</a>
+        <a href="blog.html" class="text-slate-700 hover:text-primary transition-colors py-1 border-b border-slate-50">Blog</a>
+        <a href="contact.html" class="text-slate-700 hover:text-primary transition-colors py-1">Contact</a>
+      </nav>
+      <div class="mt-auto">
+        <a href="index.html#audit" class="w-full text-center block px-6 py-3 bg-primary text-white rounded-lg shadow-md hover:bg-blue-700 transition font-semibold">
+          Free SEO Audit
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services Hero -->
+  <section class="relative pt-32 pb-20 lg:pt-44 lg:pb-28 bg-gradient-hero overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center flex flex-col items-center space-y-6 reveal">
+      <span class="px-3 py-1 bg-cyan-50 text-secondary text-xs font-semibold rounded-full border border-cyan-100">
+        Our Services
+      </span>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-dark tracking-tight leading-tight max-w-3xl">
+        Performance-First Search Engine <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Optimization Services</span>
+      </h1>
+      <p class="text-slate-600 text-sm sm:text-base max-w-xl">
+        Data-centric tactics configured to build organic visibility, fix indexation errors, scale domains, and drive client conversion growths.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Breakdown List -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 space-y-24">
+      
+      <!-- 1. Local SEO -->
+      <div id="local-seo" class="grid lg:grid-cols-12 gap-12 items-center border-b border-slate-100 pb-16 reveal">
+        <div class="lg:col-span-6 space-y-6 text-left">
+          <div class="w-12 h-12 bg-blue-50 text-primary rounded-xl flex items-center justify-center">
+            <i data-lucide="map-pin" class="w-6 h-6"></i>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-dark tracking-tight">Geographic Search Optimization (Local SEO)</h2>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Maximize footprint positioning across localized buyer intents. We manage structured citations, maps optimization, and Google Business Profile rankings.
+          </p>
+          <ul class="grid grid-cols-2 gap-3 text-xs sm:text-sm font-semibold text-slate-700">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Google Business Profile Setup</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Local Citation Audit</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Maps Pack Position Tracking</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Local Competitor Tracking</li>
+          </ul>
+          <a href="contact.html" class="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white text-xs font-semibold rounded-lg hover:bg-blue-700 transition">
+            Request Local SEO Plan <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+        <div class="lg:col-span-6 bg-slate-50 p-8 rounded-2xl border border-slate-100 flex flex-col justify-center gap-4">
+          <h4 class="font-bold text-dark text-base sm:text-lg">Why Local SEO is Critical</h4>
+          <p class="text-slate-500 text-xs leading-relaxed">
+            Over 46% of all search queries on Google carry localized geographic intent. By claiming Map Pack rankings, you establish direct booking funnels in regional centers.
+          </p>
+        </div>
+      </div>
+
+      <!-- 2. Technical SEO -->
+      <div id="technical-seo" class="grid lg:grid-cols-12 gap-12 items-center border-b border-slate-100 pb-16 reveal">
+        <div class="lg:col-span-6 lg:order-2 space-y-6 text-left">
+          <div class="w-12 h-12 bg-cyan-50 text-secondary rounded-xl flex items-center justify-center">
+            <i data-lucide="settings" class="w-6 h-6"></i>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-dark tracking-tight">Code Architecture & Technical SEO</h2>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Ensure search spider crawlers can index and crawl your layout efficiently. We resolve Core Web Vitals, schema scripts, and server bottlenecks.
+          </p>
+          <ul class="grid grid-cols-2 gap-3 text-xs sm:text-sm font-semibold text-slate-700">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Core Web Vitals Optimization</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> JSON-LD Schema Integration</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Crawl Error Resolution</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Robots.txt & Sitemap Audit</li>
+          </ul>
+          <a href="contact.html" class="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white text-xs font-semibold rounded-lg hover:bg-blue-700 transition">
+            Request Technical SEO Audit <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+        <div class="lg:col-span-6 lg:order-1 bg-slate-50 p-8 rounded-2xl border border-slate-100 flex flex-col justify-center gap-4">
+          <h4 class="font-bold text-dark text-base sm:text-lg">Improving Site Accessibility</h4>
+          <p class="text-slate-500 text-xs leading-relaxed">
+            Slow loading frameworks lose users. Resolving technical latency levels increases crawl speed budgets and boosts landing metrics.
+          </p>
+        </div>
+      </div>
+
+      <!-- 3. On-page SEO -->
+      <div id="on-page-seo" class="grid lg:grid-cols-12 gap-12 items-center border-b border-slate-100 pb-16 reveal">
+        <div class="lg:col-span-6 space-y-6 text-left">
+          <div class="w-12 h-12 bg-teal-50 text-accent rounded-xl flex items-center justify-center">
+            <i data-lucide="file-text" class="w-6 h-6"></i>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-dark tracking-tight">On-Page Content Tuning</h2>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Establish content relevance structures matching buyer queries. We optimize header nesting ratios, title keywords, and tag values.
+          </p>
+          <ul class="grid grid-cols-2 gap-3 text-xs sm:text-sm font-semibold text-slate-700">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Meta Tag Optimization</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> H1-H6 Structural Formatting</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Keyword Density Integration</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Internal Link Networking</li>
+          </ul>
+          <a href="contact.html" class="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white text-xs font-semibold rounded-lg hover:bg-blue-700 transition">
+            Optimize My Content <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+        <div class="lg:col-span-6 bg-slate-50 p-8 rounded-2xl border border-slate-100 flex flex-col justify-center gap-4">
+          <h4 class="font-bold text-dark text-base sm:text-lg">Targeting Core Relevance</h4>
+          <p class="text-slate-500 text-xs leading-relaxed">
+            Clear structural hierarchy informs search engines of content topics. We optimize pages to align with specific user search queries.
+          </p>
+        </div>
+      </div>
+
+      <!-- 4. Off-page SEO -->
+      <div id="off-page-seo" class="grid lg:grid-cols-12 gap-12 items-center border-b border-slate-100 pb-16 reveal">
+        <div class="lg:col-span-6 lg:order-2 space-y-6 text-left">
+          <div class="w-12 h-12 bg-indigo-50 text-indigo-500 rounded-xl flex items-center justify-center">
+            <i data-lucide="globe-2" class="w-6 h-6"></i>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-dark tracking-tight">Authority Building (Off-Page SEO)</h2>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Build page trust flags. We secure high-authority references, brand citations, and mentions on relevant digital publications.
+          </p>
+          <ul class="grid grid-cols-2 gap-3 text-xs sm:text-sm font-semibold text-slate-700">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Digital PR Placements</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Brand Mention Management</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Unlinked Citations Recovery</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Authority Benchmarking</li>
+          </ul>
+          <a href="contact.html" class="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white text-xs font-semibold rounded-lg hover:bg-blue-700 transition">
+            Build Authority <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+        <div class="lg:col-span-6 lg:order-1 bg-slate-50 p-8 rounded-2xl border border-slate-100 flex flex-col justify-center gap-4">
+          <h4 class="font-bold text-dark text-base sm:text-lg">Domain Trust Signals</h4>
+          <p class="text-slate-500 text-xs leading-relaxed">
+            Search engines rank reputable domains higher. Authoritative external references confirm your site's credibility.
+          </p>
+        </div>
+      </div>
+
+      <!-- 5. E-commerce SEO -->
+      <div id="ecommerce-seo" class="grid lg:grid-cols-12 gap-12 items-center border-b border-slate-100 pb-16 reveal">
+        <div class="lg:col-span-6 space-y-6 text-left">
+          <div class="w-12 h-12 bg-pink-50 text-pink-500 rounded-xl flex items-center justify-center">
+            <i data-lucide="shopping-bag" class="w-6 h-6"></i>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-dark tracking-tight">E-commerce Inventory Rankings</h2>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Rank product list directories and individual items. We resolve navigation structures, product schema variables, and duplication issues.
+          </p>
+          <ul class="grid grid-cols-2 gap-3 text-xs sm:text-sm font-semibold text-slate-700">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Category Structure Tuning</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Product Schema Structuring</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Faceted Navigation Setup</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> XML Feeds Synchronization</li>
+          </ul>
+          <a href="contact.html" class="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white text-xs font-semibold rounded-lg hover:bg-blue-700 transition">
+            Scale Shop Traffic <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+        <div class="lg:col-span-6 bg-slate-50 p-8 rounded-2xl border border-slate-100 flex flex-col justify-center gap-4">
+          <h4 class="font-bold text-dark text-base sm:text-lg">Scaling Transaction Volatility</h4>
+          <p class="text-slate-500 text-xs leading-relaxed">
+            E-commerce sites often face indexing challenges due to duplicate parameter variables. We implement canonical controls to keep product pages clear and indexable.
+          </p>
+        </div>
+      </div>
+
+      <!-- 6. Link Building -->
+      <div id="link-building" class="grid lg:grid-cols-12 gap-12 items-center border-b border-slate-100 pb-16 reveal">
+        <div class="lg:col-span-6 lg:order-2 space-y-6 text-left">
+          <div class="w-12 h-12 bg-emerald-50 text-success rounded-xl flex items-center justify-center">
+            <i data-lucide="link-2" class="w-6 h-6"></i>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-dark tracking-tight">Editorial & Contextual Link Building</h2>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Acquire editorial backlinks. We conduct manual outreach campaigns to secure natural authority references on niche-relevant sites.
+          </p>
+          <ul class="grid grid-cols-2 gap-3 text-xs sm:text-sm font-semibold text-slate-700">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Broken Link Replacement</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Resource Page Placements</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Competitor Backlink Mimicry</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Authority Niche Pitching</li>
+          </ul>
+          <a href="contact.html" class="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white text-xs font-semibold rounded-lg hover:bg-blue-700 transition">
+            Get High-Quality Backlinks <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+        <div class="lg:col-span-6 lg:order-1 bg-slate-50 p-8 rounded-2xl border border-slate-100 flex flex-col justify-center gap-4">
+          <h4 class="font-bold text-dark text-base sm:text-lg">Sustainable Link Velocity</h4>
+          <p class="text-slate-500 text-xs leading-relaxed">
+            We prioritize quality over quantity. Every link in our campaign is placed editorially on active websites with real organic traffic.
+          </p>
+        </div>
+      </div>
+
+      <!-- 7. Content Marketing & SEO Audits -->
+      <div id="seo-audit" class="grid lg:grid-cols-12 gap-12 items-center reveal">
+        <div class="lg:col-span-6 space-y-6 text-left">
+          <div class="w-12 h-12 bg-purple-50 text-purple-500 rounded-xl flex items-center justify-center">
+            <i data-lucide="award" class="w-6 h-6"></i>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-dark tracking-tight">Full SEO Performance Audits</h2>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Get a clear, actionable assessment of your organic search standing. We analyze technical errors, content gaps, and ranking barriers.
+          </p>
+          <ul class="grid grid-cols-2 gap-3 text-xs sm:text-sm font-semibold text-slate-700">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Crawler Log Evaluation</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Duplicate Content Scanning</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Penalty Analysis</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="text-success w-4.5 h-4.5"></i> Keyword Gap Diagnostics</li>
+          </ul>
+          <a href="contact.html" class="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white text-xs font-semibold rounded-lg hover:bg-blue-700 transition">
+            Request SEO Performance Audit <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+        <div class="lg:col-span-6 bg-slate-50 p-8 rounded-2xl border border-slate-100 flex flex-col justify-center gap-4">
+          <h4 class="font-bold text-dark text-base sm:text-lg">Data-Backed Solutions</h4>
+          <p class="text-slate-500 text-xs leading-relaxed">
+            Our audits deliver clear, step-by-step roadmaps to optimize your site's search visibility and performance.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Detailed Feature Comparison Table -->
+  <section class="py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center flex flex-col items-center space-y-4 mb-16">
+      <span class="px-3 py-1 bg-blue-50 text-primary text-xs font-semibold rounded-full border border-blue-100">
+        Campaign Details
+      </span>
+      <h2 class="text-3xl font-extrabold text-dark tracking-tight">Campaign Features Comparison</h2>
+      <p class="text-slate-500 max-w-xl text-sm">
+        Review features included across our Starter, Professional, and Enterprise SEO packages.
+      </p>
+    </div>
+
+    <!-- Table Container -->
+    <div class="max-w-6xl mx-auto px-6 lg:px-8 overflow-x-auto">
+      <table class="w-full bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-md text-left min-w-[700px]">
+        <thead>
+          <tr class="bg-dark text-white text-xs sm:text-sm">
+            <th class="p-5 font-bold uppercase tracking-wider">Features Checklist</th>
+            <th class="p-5 font-bold uppercase tracking-wider text-center">Starter</th>
+            <th class="p-5 font-bold uppercase tracking-wider text-center">Professional</th>
+            <th class="p-5 font-bold uppercase tracking-wider text-center">Enterprise</th>
+          </tr>
+        </thead>
+        <tbody class="text-xs sm:text-sm text-slate-600 divide-y divide-slate-100">
+          <tr>
+            <td class="p-5 font-semibold text-slate-800">Keywords Tracked</td>
+            <td class="p-5 text-center">Up to 15</td>
+            <td class="p-5 text-center text-primary font-bold">Up to 45</td>
+            <td class="p-5 text-center">Unlimited</td>
+          </tr>
+          <tr>
+            <td class="p-5 font-semibold text-slate-800">On-Page Content Tuning</td>
+            <td class="p-5 text-center"><i data-lucide="check" class="text-success mx-auto w-5 h-5"></i></td>
+            <td class="p-5 text-center"><i data-lucide="check" class="text-success mx-auto w-5 h-5"></i></td>
+            <td class="p-5 text-center"><i data-lucide="check" class="text-success mx-auto w-5 h-5"></i></td>
+          </tr>
+          <tr>
+            <td class="p-5 font-semibold text-slate-800">Technical Diagnostics</td>
+            <td class="p-5 text-center"><i data-lucide="check" class="text-success mx-auto w-5 h-5"></i></td>
+            <td class="p-5 text-center"><i data-lucide="check" class="text-success mx-auto w-5 h-5"></i></td>
+            <td class="p-5 text-center"><i data-lucide="check" class="text-success mx-auto w-5 h-5"></i></td>
+          </tr>
+          <tr>
+            <td class="p-5 font-semibold text-slate-800">Link Outreach Campaign</td>
+            <td class="p-5 text-center"><i data-lucide="minus" class="text-slate-300 mx-auto w-5 h-5"></i></td>
+            <td class="p-5 text-center"><i data-lucide="check" class="text-success mx-auto w-5 h-5"></i></td>
+            <td class="p-5 text-center"><i data-lucide="check" class="text-success mx-auto w-5 h-5"></i></td>
+          </tr>
+          <tr>
+            <td class="p-5 font-semibold text-slate-800">Faceted E-commerce Schema</td>
+            <td class="p-5 text-center"><i data-lucide="minus" class="text-slate-300 mx-auto w-5 h-5"></i></td>
+            <td class="p-5 text-center"><i data-lucide="minus" class="text-slate-300 mx-auto w-5 h-5"></i></td>
+            <td class="p-5 text-center"><i data-lucide="check" class="text-success mx-auto w-5 h-5"></i></td>
+          </tr>
+          <tr>
+            <td class="p-5 font-semibold text-slate-800">Custom Live Dashboard</td>
+            <td class="p-5 text-center"><i data-lucide="minus" class="text-slate-300 mx-auto w-5 h-5"></i></td>
+            <td class="p-5 text-center"><i data-lucide="check" class="text-success mx-auto w-5 h-5"></i></td>
+            <td class="p-5 text-center"><i data-lucide="check" class="text-success mx-auto w-5 h-5"></i></td>
+          </tr>
+          <tr>
+            <td class="p-5 font-semibold text-slate-800">Slack Strategy Channel</td>
+            <td class="p-5 text-center"><i data-lucide="minus" class="text-slate-300 mx-auto w-5 h-5"></i></td>
+            <td class="p-5 text-center"><i data-lucide="minus" class="text-slate-300 mx-auto w-5 h-5"></i></td>
+            <td class="p-5 text-center"><i data-lucide="check" class="text-success mx-auto w-5 h-5"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center flex flex-col items-center space-y-4 mb-16">
+      <span class="px-3 py-1 bg-cyan-50 text-secondary text-xs font-semibold rounded-full border border-cyan-100">
+        Common Questions
+      </span>
+      <h2 class="text-3xl font-extrabold text-dark tracking-tight">Services FAQ</h2>
+      <p class="text-slate-500 max-w-xl text-sm">
+        Clear responses about our operational practices, index guarantees, and reporting details.
+      </p>
+    </div>
+
+    <div class="max-w-3xl mx-auto px-6 space-y-4">
+      
+      <!-- FAQ 1 -->
+      <div class="bg-slate-50 border border-slate-200 rounded-xl overflow-hidden shadow-sm transition" data-faq-item data-faq-open="false">
+        <button class="w-full px-6 py-4 flex items-center justify-between font-bold text-dark text-left hover:text-primary focus:outline-none" data-faq-trigger>
+          <span>What is technical optimization?</span>
+          <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-300" data-faq-icon></i>
+        </button>
+        <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out" data-faq-content>
+          <div class="px-6 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
+            Technical optimization addresses code structures, site layouts, page responsiveness, internal link hierarchies, secure headers, and JSON-LD schemas. These updates ensure search engine spiders can easily index and crawl your site.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="bg-slate-50 border border-slate-200 rounded-xl overflow-hidden shadow-sm transition" data-faq-item data-faq-open="false">
+        <button class="w-full px-6 py-4 flex items-center justify-between font-bold text-dark text-left hover:text-primary focus:outline-none" data-faq-trigger>
+          <span>How do you build safe editorial backlinks?</span>
+          <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-300" data-faq-icon></i>
+        </button>
+        <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out" data-faq-content>
+          <div class="px-6 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
+            We avoid link broker networks and PBN systems. Our outreach team targets active, high-traffic editorial sites directly, pitch informative content adjustments, and secure contextually relevant link placements naturally.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Final CTA Consultation Banner -->
+  <section class="py-24 bg-gradient-to-br from-dark to-slate-900 text-white relative overflow-hidden">
+    <div class="max-w-5xl mx-auto px-6 lg:px-8 text-center space-y-8 relative z-10 reveal">
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight">
+        Scale Your Organic Acquisition Channels Today
+      </h2>
+      <p class="text-slate-300 max-w-xl mx-auto text-sm sm:text-base">
+        Review our custom search roadmaps with a technical optimization strategist.
+      </p>
+      <div class="flex gap-4 justify-center pt-4">
+        <a href="contact.html" class="px-8 py-4 bg-primary text-white font-semibold rounded-xl hover:bg-blue-700 transition shadow-lg btn-ripple">
+          Schedule Free SEO Strategy Call
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-slate-300 border-t border-slate-800/80 pt-20 pb-10">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 pb-16 border-b border-slate-800">
+      
+      <!-- Column 1: Info -->
+      <div class="lg:col-span-4 space-y-6">
+        <a href="index.html" class="flex items-center gap-2" aria-label="VM RankUp Home">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-primary to-secondary flex items-center justify-center">
+            <i data-lucide="trending-up" class="text-white w-6 h-6"></i>
+          </div>
+          <span class="text-2xl font-extrabold tracking-tight text-white">VM <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">RankUp</span></span>
+        </a>
+        <p class="text-sm text-slate-400 leading-relaxed">
+          VM RankUp designs high-converting search strategies for ambitious companies. We scale rankings, audit architectures, and acquire authoritative backlink assets.
+        </p>
+        
+        <!-- Social Icons -->
+        <div class="flex items-center gap-4 text-slate-400">
+          <a href="#" aria-label="Twitter Account" class="hover:text-primary transition-colors"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+          <a href="#" aria-label="LinkedIn Account" class="hover:text-primary transition-colors"><i data-lucide="linkedin" class="w-5 h-5"></i></a>
+          <a href="#" aria-label="Instagram Account" class="hover:text-primary transition-colors"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+          <a href="#" aria-label="Facebook Page" class="hover:text-primary transition-colors"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+        </div>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div class="lg:col-span-2 space-y-4">
+        <h4 class="text-white font-bold text-sm uppercase tracking-wider">Quick Links</h4>
+        <ul class="space-y-2 text-sm text-slate-400">
+          <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+          <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
+          <li><a href="services.html" class="hover:text-white transition-colors">SEO Services</a></li>
+          <li><a href="portfolio.html" class="hover:text-white transition-colors">Case Studies</a></li>
+          <li><a href="blog.html" class="hover:text-white transition-colors">SEO Insights Blog</a></li>
+          <li><a href="contact.html" class="hover:text-white transition-colors">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Services -->
+      <div class="lg:col-span-3 space-y-4">
+        <h4 class="text-white font-bold text-sm uppercase tracking-wider">SEO Services</h4>
+        <ul class="space-y-2 text-sm text-slate-400">
+          <li><a href="services.html#local-seo" class="hover:text-white transition-colors">Local SEO campaigns</a></li>
+          <li><a href="services.html#technical-seo" class="hover:text-white transition-colors">Technical Architecture audits</a></li>
+          <li><a href="services.html#on-page-seo" class="hover:text-white transition-colors">On-page content optimization</a></li>
+          <li><a href="services.html#off-page-seo" class="hover:text-white transition-colors">Off-page PR campaigns</a></li>
+          <li><a href="services.html#link-building" class="hover:text-white transition-colors">Contextual Link Building</a></li>
+          <li><a href="services.html#seo-audit" class="hover:text-white transition-colors">SEO Performance audits</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Newsletter -->
+      <div class="lg:col-span-3 space-y-4">
+        <h4 class="text-white font-bold text-sm uppercase tracking-wider">SEO Insights Newsletter</h4>
+        <p class="text-sm text-slate-400 leading-relaxed">
+          Subscribe to acquire weekly actionable technical tips directly inside your mailbox.
+        </p>
+        <form data-newsletter-form class="flex flex-col gap-2">
+          <input type="email" placeholder="Enter your business email" class="px-4 py-2.5 rounded-lg bg-slate-800/80 border border-slate-700 text-white text-xs focus:outline-none focus:ring-1 focus:ring-primary/40 focus:border-primary" required>
+          <button class="px-4 py-2.5 bg-primary text-white font-semibold rounded-lg hover:bg-blue-700 transition text-xs btn-ripple">
+            Subscribe
+          </button>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Copyright and Legal Links -->
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 pt-8 flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs gap-4">
+      <p>&copy; 2026 VM RankUp. All rights reserved. Built with passion for search dominance.</p>
+      <div class="flex items-center gap-6">
+        <a href="#" class="hover:text-slate-300 transition">Privacy Policy</a>
+        <a href="#" class="hover:text-slate-300 transition">Terms of Service</a>
+        <a href="#" class="hover:text-slate-300 transition">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button Trigger -->
+  <button id="back-to-top" class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition" aria-label="Scroll Back to Top">
+    <i data-lucide="chevron-up" class="w-6 h-6"></i>
+  </button>
+
+  <!-- Main JavaScript modules init -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
